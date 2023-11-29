@@ -1,125 +1,33 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@media screen and (min-width:1201px) {
-    
+/* main style */
 
-    header img {
-        max-width: 100%;
-        align-items: center;
-    }
-    
-    nav {
-        padding-top: 3px;
-    }
-    
-    .navigate {
-        text-align: center;
-    }
-    
-    nav ul {
-        text-align: center;
-        display: inline-block;
-        list-style: none;
-    }
-       
-    nav li {
-        display: inline-block;
-        list-style: none;
-        font-family: "athelas", serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    
-    body {
-        background-image: url(../graph240-max/img/bckdrp.jpg);
-        background-size: 100%;
-    }
-    }
-    
-    @media screen and (min-width:1024px){
-        header img {
-        max-width: 100%;
-    
-    }
-    
-    nav {
-        padding: 3px;
-    
-        
-    }
-    
-    .navigate {
-        text-align: center;
-    
-    }
-    
-    
-    
-    nav ul {
-        display: inline-block;
-        list-style: none;
-       
-        
-        
-    }
-       
-    nav li {
-            
-            padding: 0px 5px 0px 5px;
-            display: inline-block;
-            list-style: none;
-            font-family: "athelas", serif;
-            font-weight: 400;
-            font-style: normal;
-    }
-    body {
-        background-image: url(../graph240-max/img/bckdrp.jpg);
-        background-size: 100%;
-    }
-    
-    }
-    
-    @media screen and (min-width:768px) {
-    nav {
-        padding: 3px;
-    }
-    
-    .navigate {
-        text-align: center;
-    
-    }
-    
-    nav ul {
-        display: inline-block;
-        list-style: none;
-       }
-       
-    
-       nav li {
-            
-            padding: 0px 5px 0px 5px;
-            font-family: altheas, serif;
-            display: inline-block;
-            list-style: none;
-        }
-        body {
-        background-image: url(../graph240-max/img/bckdrp.jpg);
-        background-size: 100%;
-    }
-    
-    }
-    
-    @media screen and (min-width:320px) {
-        nav {
-        padding: 3px;
-    }
-    
-    
-    body {
-        background-image: url(../graph240-max/img/bckdrp.jpg);
-        background-size: 100%;
-    }
-    }
+/* header/logo */
 
 
+/* End Main Style */
+
+
+
+/* start reponisive style */ 
+
+body {
+  background-image: url(../graph240-max/img/bckdrp.jpg);
+  background-size: 100%;
+  background-position: fixed;
+}
+
+header img {
+  max-width: 100%;
+  scale: 100%;
+  
+  
+}
+    
+@media screen and (max-width:768px) {
+
+}
+    
+@media screen and (max-width:320px) {
+}
